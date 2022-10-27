@@ -1,0 +1,43 @@
+.services__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.services {
+    background: var(--color-bg-variant);
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+}
+
+.services:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+}
+
+.blockchain-img {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .services__container {
+        grid-template-columns: 1fr;
+    }
+
+    .services {
+        width: 70%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .services__container{
+        gap: 1rem;
+    }
+    .services{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

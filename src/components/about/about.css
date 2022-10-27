@@ -23,6 +23,8 @@
 
 .about__me img:hover {
     transform: rotate(0);
+
+
 }
 
 .about__content p {
@@ -33,8 +35,6 @@
     margin-top: 5rem;
     animation: shadow-drop-top-bottom 0.4s linear both
 }
-
-
 
 
 @keyframes shadow-drop-top-bottom {
@@ -48,27 +48,31 @@
 }
 
 @media screen and (max-width:1024px) {
-    .about__container{
+    .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .about__me{
+
+    .about__me {
         width: 50%;
         margin: 2rem auto 4rem;
 
     }
-    .about__content a{
+
+    .about__content a {
         margin-top: 23px;
 
     }
 }
+
 @media screen and (max-width:600px) {
-    .about__me{
+    .about__me {
         width: 70%;
         margin: 0 auto 4rem;
 
     }
-    .about__content a{
+
+    .about__content a {
         margin-top: 23px;
 
     }
