@@ -86,18 +86,19 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
+  padding: 0.75rem 1.8rem;
   border-radius: 0.6rem;
   cursor: pointer;
   border: 2px solid var(--color-primary);
   transition: var(--transition);
+  font-size: 20px;
+
 }
 
 .btn:hover {
   background-color: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
-  /* font-size: 20px; */
 }
 
 .btn-primary {

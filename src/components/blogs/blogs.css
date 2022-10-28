@@ -1,0 +1,14 @@
+.blogs__container{
+    width: 30%;
+
+}
+@media screen and (max-width:1024px) {
+    .blogs__container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px) {
+    .blogs__container{
+        width: 80%;
+    }
+}

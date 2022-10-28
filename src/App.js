@@ -10,7 +10,7 @@ import { Footer } from './components/footer/Footer'
 import { Blogs } from './components/blogs/Blogs';
 import { Education } from './components/education/Education';
 function App() {
-  //1:43:44
+  //2:54:30
   return (
     <div>
       <Header></Header>

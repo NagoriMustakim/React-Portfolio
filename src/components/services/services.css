@@ -19,7 +19,10 @@
 .blockchain-img {
     margin-top: 3rem;
 }
-
+.subtittle{
+    text-align: center;
+    opacity: 0.5;
+}
 @media screen and (max-width:1024px) {
     .services__container {
         grid-template-columns: 1fr;

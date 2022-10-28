@@ -10,7 +10,6 @@ export const Services = () => {
       <h2>Services</h2>
       <div className="container services__container">
         <article className='services'>
-          <div className="services__head"></div>
           <h3>Blockchain Development</h3>
           <div className="subtittle">
             Building decentralized Application on blockchain
@@ -20,7 +19,6 @@ export const Services = () => {
           </div>
         </article>
         <article className='services'>
-          <div className="services__head"></div>
           <h3>Smart-contract</h3>
           <div className="subtittle">
             Secure smart contract
@@ -30,7 +28,6 @@ export const Services = () => {
           </div>
         </article>
         <article className='services'>
-          <div className="services__head"></div>
           <h3>Web Development</h3>
           <div className="subtittle">
             developing a fullstack website </div>
