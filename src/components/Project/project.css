@@ -59,7 +59,6 @@ article h3 {
     gap: 9rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: -2rem;
-    padding-left: 2rem;
 }
 .bored{
     margin-top: 3rem;

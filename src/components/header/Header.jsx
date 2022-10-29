@@ -12,7 +12,7 @@ export const Header = () => {
         <h3 className="text-light">FullStack Blockchain Developer</h3>
         <Cta></Cta>
         <Social></Social>
-          <a href="#contact" className='scroll__down'>Scroll down &rarr;</a>
+        <a href="#contact" className='scroll__down'>Scroll down &rarr;</a>
         <div className="me">
           <img src={me} alt="loading" />
         </div>
