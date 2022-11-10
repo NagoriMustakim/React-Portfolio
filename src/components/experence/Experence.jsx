@@ -9,28 +9,28 @@ export const Experence = () => {
       <h2>&larr; My Experience  &rarr;</h2>
       <div className="container experience__container">
         <div className="experince__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Blockchain Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
 
-              <h4>HTML</h4>
+              <h4>SOLIDITY</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-              <h4>CSS</h4>
+              <h4>ETHEREUM</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-              <h4>JAVASCRIPT</h4>
+              <h4>SMART-CONTRACT</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-              <h4>REACTJS</h4>
+              <h4>ETHERS</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-              <h4>BOOTSTRAP</h4>
+              <h4>POLYGON</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
@@ -39,8 +39,12 @@ export const Experence = () => {
           </div>
         </div>
         <div className="experince__backend">
-          <h3>Backend Development</h3>
+          <h3>Web Development</h3>
           <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='icon' />
+              <h4>REACT</h4>
+            </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
               <h4>NODEJS</h4>
@@ -51,19 +55,7 @@ export const Experence = () => {
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-              <h4>SOLIDITY</h4>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='icon' />
-              <h4>ETHEREUM</h4>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='icon' />
               <h4>PYTHON</h4>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='icon' />
-              <h4>SMART-CONTRACT</h4>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />

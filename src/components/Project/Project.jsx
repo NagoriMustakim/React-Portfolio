@@ -17,7 +17,7 @@ export const Project = () => {
       <div className="container project__container">
         <div className="test">
         <article className='project__item'>
-          <h3>This nft marketplace</h3>
+          <h3>NFT marketplace</h3>
           <h5>NFT Marketplace where users can MINT their NFT, BUY and SELL NFT</h5>
           <div className="project-img">
 
@@ -31,20 +31,19 @@ export const Project = () => {
         </article>
         </div>
         <article className='project__item'>
-          <h3>Web 3 calculator</h3>
-          <h5>WEB-3 calculator where users can interact with blockchain</h5>
+          <h3>NFT Minting site</h3>
+          <h5>The Brawlers is a collection which is NOT AUTO-GENERATED</h5>
 
           <div className="project-img">
             <img src={textutils} alt="loading..." />
           </div>
           <div className="project-code-icon">
-            <a href="https://github.com/NagoriMustakim/web-3-calculator" rel="noreferrer" className='' target='_blank'><RiCodeBoxFill/></a>
-            <a href="https://nagorimustakim.github.io/web-3-calculator/" rel="noreferrer" className='' target='_blank'><HiPlay /></a>
+            <a href="https://thebrawlers.org/" rel="noreferrer" className='' target='_blank'><HiPlay /></a>
 
           </div>
         </article>
         <article className='project__item'>
-          <h3>This nft marketplace</h3>
+          <h3>NFT marketplace</h3>
           <h5>NFT Marketplace where users can BUY and SELL your NFT</h5>
           <div className="project-img">
             <img src={nft} alt="loading..." />

@@ -31,10 +31,15 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    
+}
+.experience__details h4{
+    margin-top: 0.49rem;
 }
 
 .icon {
     margin-top: 6px;
+    
     color: var(--color-primary);
 }
 
