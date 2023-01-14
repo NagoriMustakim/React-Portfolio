@@ -13,7 +13,6 @@ export const Experence = () => {
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='icon' />
-
               <h4>SOLIDITY</h4>
             </article>
             <article className='experience__details'>
