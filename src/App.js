@@ -1,29 +1,20 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './Home';
+import { Contact } from './components/contact/Contact';
 import { About } from './components/about/About';
-import { Header } from './components/header/Header'
-import { Navbar } from './components/navbar/Navbar';
-import { Experence } from './components/experence/Experence'
-import { Project } from './components/Project/Project'
-import { Services } from './components/services/Services'
-import { Contact } from './components/contact/Contact'
-import { Footer } from './components/footer/Footer'
-import { Blogs } from './components/blogs/Blogs';
-import { Education } from './components/education/Education';
+import { Services } from './components/services/Services';
+import { Project } from './components/Project/Project';
 function App() {
-  //2:54:30
   return (
-    <div>
-      <Header></Header>
-      <Navbar></Navbar>
-      <Blogs></Blogs>
-      <About></About>
-      <Education></Education>
-      <Experence></Experence>
-      <Project></Project>
-      <Services></Services>
-      <Contact></Contact>
-      <Footer></Footer>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='/services' element={<Services />}></Route>
+      <Route path='/project' element={<Project />}></Route>
+    </Routes>
+
   );
 }
 

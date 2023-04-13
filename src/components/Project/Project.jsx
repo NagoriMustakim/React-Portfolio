@@ -15,7 +15,7 @@ const data = [
     title: 'THE WIZKY CLUB',
     discription: 'Introducing the world’s first NFT whisky trading',
     github: 'https://github.com/NagoriMustakim/THE-WIZKY-CLUB',
-    demo: 'https://the-wizky-club.vercel.app'
+    demo: 'https://wizky.io'
   },
   {
     id: 2,
